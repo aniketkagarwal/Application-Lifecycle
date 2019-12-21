@@ -1,0 +1,40 @@
+The lifecycle of an application in many cases, includes these phases:
+
+  1. Requirements specification
+  2. Development
+  3. Testing
+  4. Deployment
+  5. Maintenance
+ 
+1. Requirements specifications
+
+    An application’s lifecycle should start from the drawing board, where the relevant stakeholders define what they need to have in the application to support their business cases. This is the source for creating the requirements.
+    
+2. Development phase
+
+    At the beginning, the team sits together and breaks down the application’s requirements into pieces and phases. A good practice at this point is to have representatives from the different teams present: development, testing, product marketing, support, IT, sales, etc. The idea here is to validate that the application being developed will answer all the real needs, and will be easy to use, test and deploy.
+
+    During the development phase, testers should begin preparing their tests-cases and environments for the testing phase. They should also be in constant contact with the developers, providing feedback on the application and if needed helping them to validate the features developed even before they are “formally released” to the testing team.
+    
+3. Testing phase
+
+    During the testing phase, the testers’ role is to verify that the application complies with the requirements defined in the initial steps of the process. They also need to ensure that, even if this is not explicitly defined in the requirements, the application will meet the expectations of the users and all the other stakeholders that will need to support it throughout its lifecycle.
+    
+    During the testing phase, the testers identify and report issues that need to be addressed by development. In cases where it is not clear whether the issues should be fixed (or even if there are bugs at all), the team should call upon experts from other departments to provide their input. The development and testing phases will end once the application reaches a quality and stability level that is good enough for release. It is not practical or economical to aim for developing “perfect” products.
+    
+4. Deployment and roll-out
+
+    The deployment and roll-out depend on the type of product:
+
+        .... "On-Premises" Client-Server or Web-based application that needs to be released in some kind of installable format and then distributed, installed and configured on the customers’ server
+        .... SaaS products – that need to be deployed on the internal servers of the company
+        .... Client applications distributed to customers (via CD / Download)
+        .... Non-software products with their own individual deployment and distribution process.
+
+    Each product type deployment has different attributes and specifications.
+    
+5. Maintenance
+
+    Maintenance is traditionally the longest stage of Application Lifecycle, but it is also the one where the participation of the testing and development teams is usually the lowest.
+    
+    If the work during the previous phases was done effectively then the amount of product maintenance will be significantly less. Basically the closer the system is to the actual needs of the user, and the more issues that were caught during the testing / development phases, the fewer problems we will see during the maintenance and roll-out processes. An important part of the maintenance phase is to define what is called retirement of the system which, basically is the time when users should stop working with the product and move either to a newer version or migrate to a different product altogether.
